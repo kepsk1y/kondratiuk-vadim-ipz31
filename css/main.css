@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+section,
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main {
+    text-align: left;
+    font-size: 14px;
+    margin: 80px auto 0;
+}
+.main li {
+    width: 23%;
+    padding: 0 1%;
+}
+.main-title {
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.main-description {
+    font-weight: 400;
+    line-height: 24px;
+}
+.activities-title,
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    padding: 90px 0 50px;
+}
+.activities-img {
+    width: 30%;
+    margin: 0 1.5% 40px;
+}
+.team-wrapper {
+    height: 648px;
+    text-align: center;
+    background: #f5f4fa;
+    margin: 40px 0 -15px;
+}
+.team li {
+    width: 23%;
+    height: 368px;
+    margin: 1%;
+    background: white;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001f;
+}
+.team-img {
+    width: 100%;
+}
+.team-name {
+    font-weight: 500;
+    line-height: 19px;
+    color: #212121;
+    margin-top: 30px;
+}
+.team-position {
+    line-height: 19px;
+    color: #757575;
+    margin-top: 10px;
+}
